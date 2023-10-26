@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.container .menu-lateral .box-bottom img{
+    height:30px;
+    width:30px; 
+}
+
+.container .menu-lateral {
+    height: 100%;
+    width: 110px;
+    background: #f4f6fd;
+     flex-direction: column;
+
+}
+.container.menu-lateral.box-top,
+.container.menu-lateral.box-middle,
+.container.menu-lateral.box-bottom {
+    display:flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.container .menu-lateral.box-top {
+   padding: top 40px; 
+}
+.container .menu-lateral.box-middle {
+    font-size: 22px;
+    color:#666;
+}
+.container .menu-lateral.box-bottom {
+    height: 50px;
+    width: 50px;
+
+}
+.container .menu {
+    height: 100%;
+    width: 280px;
+    background: #ccd6fc;
+}
+.container .menu ul li {
+    margin: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    list-style: none;
+
+}
+
+.container .menu .box1 {
+    height: 50%;
+    padding: top 50px;
+    ;
+}
+
+.container .menu .box2 {
+    display: flex;
+    align-items: flex-end;
+    height: 50%;
+    padding-bottom: 50px;
+}
+
+.container .main {
+    height: 100%;
+    width: 100%;
+    background: rgb(245, 245, 245);
+}
+.container .main.top {
+    display:flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.container .main .top .box-right {
+    display: flex;
+}
+.container .main .top .box-right .icons {
+    display:flex;
+    gap:10px;
+
+}
+.container .main .top .box-right .icons {
+   font-size: 22px;
+}
+.container .main .top .box-right .icons .icon {
+    width: 40px;
+    height: 40px;
+    background:#f4f6fd;
+    border-radius:10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .main .top .box-right .search {
+  background:#f4f6fd;
+  width:230px;
+  border-radius: 15px;
+  display:flex;
+  margin-right: 30px;
+  gap:10px;
+}
+.container .main .top .box-right .search i{
+    margin-left: 22px;
+}
+.container .main .top .box-right .search input{
+border:none;
+margin-left: 30px;
+background:transparent;
+font-weight:600;
+outline: none;
+width:180px;
+}
+.container .main .cardis{
+    margin-left:30px;
+}
+.container .main .cardis .card {
+    width:350px;
+    height:160px;
+    background: #f4f6fd;
+ }
+ .container .main .cardis .card .box {
+    display:flex;
+    justify-content: space-between;
+ }
